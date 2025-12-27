@@ -101,7 +101,7 @@ EXPOSE 80
           - name: remove docker image
             shell: docker image rm praveensirvi/web
           - name: docker container create
-            shell: docker run -d --name myweb -p 8080:80 praveensirvi/web
+            shell: docker run -d --name myweb -p 8080:80 rishikesh/web
    
    ```
 Troubleshooting: 
@@ -114,3 +114,6 @@ Makesure you have opened required ports on AWS Security group for this server.
  
 ##### References
 [1] - [Jenkins Docs - Building Software Projects](https://wiki.jenkins.io/display/JENKINS/Building+a+software+project)
+
+
+project by Rishikesh Kourav
